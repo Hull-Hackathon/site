@@ -1,17 +1,38 @@
 nav {
 	position: fixed;
-	background: rgba(32,208,158,0.7);
-	height: 76px;
+	background: opacify($brand, 0.1);
+	height: 92px;
 	width: 100%;
+	z-index: 20;
 
 		ul {
+			display: inline;
+			margin-left: 50px;
 
 				li {
 					display: inline-block;
 					color: white;
 					font-family: $sans;
-					padding-right: 20px;
+					padding-right: 40px;
 					font-size: 16px;
+					margin-top: 10px;
 				}
+		}
+		.logo {
+		  display: block;
+		  text-indent: -9999px;
+		  width: 39px;
+		  height: 45px;
+		  background: url(../imgs/logo.svg);
+		  background-size: 39px 45px;
+		  float: left;
+		}
+		.white-button {
+			display: inline;
+			float: right;
+			width: 140px;
+			height: 40px;
+			font-size: 14px;
+			margin-top: 3px;
 		}
 }

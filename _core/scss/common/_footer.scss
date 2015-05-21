@@ -1,0 +1,21 @@
+footer {
+	background: $brand;
+
+		p {
+			font-family: $sans;
+			color: white;
+			font-size: 14px;
+		}
+		.line {
+			width: calc(100% - 24px);
+			margin: auto;
+			height: 1px;
+			background: white;
+			opacity: 0.3;
+			margin-bottom: 12px;
+		}
+		#right {
+			float: right;
+			text-align: right;
+		}
+}

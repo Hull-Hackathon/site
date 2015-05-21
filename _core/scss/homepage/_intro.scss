@@ -1,7 +1,7 @@
 .introduction {
 	position: relative;
 
-	background: #20D09E;
+	background: $brand;
 
 
 		.loop-12 {
@@ -23,6 +23,15 @@
 			color: #FFFFFF;
 			line-height: 23px;
 			z-index: 5;
+		}
+		.button-note {
+			display: inline;
+			margin-left: 40px;
+		}
+		.white-button {
+
+	margin-bottom: 180px;
+	display: inline;
 		}
 
 
