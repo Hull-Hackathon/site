@@ -1,0 +1,26 @@
+/* 
+
+
+All things Typography 
+	
+	- Font-sizes and weights
+	- Page Titles, body text, quotes
+
+
+
+-- */
+
+.left-text {
+	font-size: 22px;
+	font-family: $sans;
+	color: #7D939E;
+}
+.body {
+	font-size: 20px;
+	font-family: $sans;
+	color: $text;
+	line-height: 26px;
+}
+a {
+	color: $brand;
+}

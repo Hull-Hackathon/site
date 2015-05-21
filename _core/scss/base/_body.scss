@@ -1,0 +1,28 @@
+::selection {
+	background: $select; /* Safari */
+	}
+::-moz-selection {
+	background:$select; /* Firefox */
+}
+body {
+	background-color: #fff;
+}
+.white-button {
+	background: white;
+	color: $brand;
+	font-family: $sans;
+	height: 50px;
+	width: 180px;
+	border-radius: 40px;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	padding-top: 4px;
+
+	margin-bottom: 180px;
+	display: inline;
+}
+.button-note {
+	display: inline;
+	margin-left: 40px;
+}
