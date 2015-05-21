@@ -1,0 +1,19 @@
+.everyone {
+	background: $brand;
+	background: url(../imgs/bg.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  		h1 {
+  			margin-top: 110px;
+  			color: white;
+  			font-size: 32px;
+  			font-family: $sans;
+  		}
+  		p {
+  			color: white;
+  			margin-bottom: 100px;
+  		}
+}
